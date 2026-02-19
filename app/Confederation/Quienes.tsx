@@ -39,7 +39,7 @@ export default function QuienesSomos() {
           {/* Texto */}
          
           <div className="flex w-[100%] flex-col text-center mr-20 justify-center px-8 text-white">
-          <motion.p
+          <motion.div
               initial={{ opacity: 0, y: 20, filter: "blur(8px)" }}
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               transition={{
@@ -49,14 +49,7 @@ export default function QuienesSomos() {
               }}
               viewport={{ once: true }}
               >
-
-           <h1
-          className="
-            text-3xl md:text-[40px] pb-2 font-bold text-start
-            bg-gradient-to-r from-[#ec0202] to-white
-            bg-clip-text text-transparent
-          "
-        >
+           <h1 className="text-3xl md:text-[40px] pb-2 font-bold text-start bg-gradient-to-r from-[#ec0202] to-white bg-clip-text text-transparent">
             ¿Quiénes somos, hacia dónde vamos?
           </h1>
             <p className="text-[20px] pt-14 text-justify">
@@ -76,7 +69,7 @@ export default function QuienesSomos() {
               garantizar la inclusión de valores dentro del proceso formativo de
               cada practicante.
             </p>
-          </motion.p>
+          </motion.div>
           </div>
         </div>
       </div>
