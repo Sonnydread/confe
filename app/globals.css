@@ -187,4 +187,20 @@ html.lenis body {
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));
   }
+
+  /* Solo estos cambios para eliminar el rebote */
+  html {
+    overscroll-behavior-y: none;
+  }
+
+  body {
+    overscroll-behavior-y: none;
+  }
+
+  /* Si el scroll real está en otro contenedor (main, #root, .lenis, etc.) */
+  .lenis.lenis-smooth,
+  main,
+  #__next {
+    overscroll-behavior-y: none;
+  }
 }

@@ -79,7 +79,7 @@ export default function Fundacion() {
             viewOptions={{ once: true }}
             className="md:pt-0 pt-0 md:pb-0"
           >
-            <div className="flex justify-between items-start md:ml-0 ml-12 md:flex-row flex-col md:pt-0">
+            <div className="flex justify-between items-start md:ml-0 ml-6 md:flex-row flex-col md:pt-0">
               <h1
                 className="
                   text-3xl md:text-5xl font-bold text-start

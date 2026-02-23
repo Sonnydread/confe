@@ -92,13 +92,10 @@ export default function Information() {
       <div className="flex justify-between items-start md:flex-row flex-col px-6 md:px-20">
         <h1
           className="
-            text-3xl md:text-5xl font-bold text-start
-            text-[#ec0202]
-            md:bg-gradient-to-r md:from-[#ec0202] md:to-white
-            md:bg-clip-text md:text-transparent
-            md:[-webkit-background-clip:text]
-            md:[-webkit-text-fill-color:transparent]
-          "
+  text-3xl md:text-5xl font-bold text-start
+  bg-gradient-to-r from-[#ec0202] to-white  
+  bg-clip-text text-transparent
+"
         >
           Próximos Eventos
         </h1>
@@ -110,7 +107,7 @@ export default function Information() {
           <Carousel
             setApi={setApi}
             opts={{ loop: true, align: "center" }}
-            className="w-full"
+            className="w-full md:px-0 px-2"
           >
             <CarouselContent>
               {team.map((member, index) => (

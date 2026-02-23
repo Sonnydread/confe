@@ -48,7 +48,7 @@ export function SubscribeForm() {
 };
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
-      <SheetContent className="overflow-y-auto backdrop-blur-lg bg-gray-900  flex flex-col gap-4 max-w-none w-full md:max-w-md ">
+      <SheetContent className="overflow-y-auto ftems-center justify-center backdrop-blur-lg bg-gray-900  flex flex-col gap-4 max-w-none w-full md:max-w-md ">
         <SheetHeader>
          <SheetTitle className="flex items-center gap-3 text-white text-start">
   <span>Contáctanos</span>

@@ -14,11 +14,11 @@ export default function Port() {
         height={260}
         quality={100}
         alt="art background"
-        className="absolute inset-0 w-full h-full object-cover opacity-95"
+        className="absolute w-full h-full object-cover opacity-95"
       />
 
       {/* Contenido */}
-      <div className="absolute inset-0 flex flex-col items-center justify-start md:mt-[120px] mt-[100px] gap-6 px-0 md:px-0">
+      <div className="absolute flex flex-col items-center justify-start md:mt-[10px] mt-[0px] gap-6 px-0 md:px-0">
         
         {/* Título Principal */}
         <h1

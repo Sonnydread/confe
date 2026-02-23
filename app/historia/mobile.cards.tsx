@@ -83,7 +83,7 @@ export default function Cardx() {
         <Button
         variant="destructive"
           onClick={onPrev}
-          className="absolute top-1/2 cursor-pointer -translate-y-1/2 md:left-[31%] left-4"
+          className="absolute top-1/2 cursor-pointer bg-red-500 text-white -translate-y-1/2 md:left-[31%] left-4"
         >
           <ArrowLeft size={24} />
         </Button>
@@ -91,7 +91,7 @@ export default function Cardx() {
         <Button
         variant="destructive"
           onClick={onNext}
-          className="absolute top-1/2 cursor-pointer -translate-y-1/2 md:right-[31%] right-4"
+          className="absolute top-1/2 cursor-pointer bg-red-500 text-white -translate-y-1/2 md:right-[31%] right-4"
         >
           <ArrowRight size={24} />
         </Button>

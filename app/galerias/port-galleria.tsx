@@ -43,7 +43,7 @@ export default function PortGaleria() {
             alt="portada"
             width={500}
             height={700}
-            className="hidden md:block relative mt-6 z-10 w-full h-full rounded-2xl shadow-lg"
+            className="hidden md:block relative mt-6 z-0 w-full h-full rounded-2xl shadow-lg"
           />
         </div>
 

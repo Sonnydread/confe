@@ -93,7 +93,7 @@ const x = useTransform(
           <motion.div
             style={{ x }}
             transition={{ duration: 1 }}
-            className="flex flex-row ml-[330px] space-x-14"
+            className="flex flex-row ml-[700px] space-x-10"
             ref={content}
           >
             {images.map((src, index) => (
@@ -133,7 +133,7 @@ function ImageCard({
   index: number;
   containerHeight: number;
 }) {
-  const [transitionTop, setTransitionTop] = useState("140px");
+  const [transitionTop, setTransitionTop] = useState("180px");
 
   const y = useTransform(
     scrollYProgress,

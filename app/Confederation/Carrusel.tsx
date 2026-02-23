@@ -32,7 +32,7 @@ function Carruseles() {
   return (
     <>
       <Carousel
-        className="w-full relative py-6 md:-mt-[30px] -mt-[250px] z-10 bg-gray-800"
+        className="w-full relative py-6 md:-mt-[140px] -mt-[250px] z-100 bg-gray-800"
         opts={{
           loop: true,
         }}
